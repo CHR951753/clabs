@@ -15,6 +15,6 @@ return count;
     char n;
     n=getchar();
     char num=func(n);
-    printf("the numbefr of one is %d\n",num);
+    printf("the number of one is %d\n",num);
     putchar(num);
 }
