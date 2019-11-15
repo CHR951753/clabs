@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main(void)
+{
+    unsigned long long int x, y,b,a;
+    
+    
+    x = 0;
+    y = ~x;
+
+    a = 1;
+    b = 0;
+    while(a!=0)
+    {
+        a = a<<1;
+        b = b+1;
+    }
+    printf("unsigned long long int is size of bit= %llu\n",b);
+    printf("The max ia = %llu\n", y); 
+    printf("the min is = ");
+    return 0;   
+}
