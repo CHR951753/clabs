@@ -1,20 +1,19 @@
 #include<stdio.h>
-int func(int n)
-{
+int num1(int n){
     int count=0;
-    while(n>0)
-    {
-        count++;
-        n&=(n-1);
+    while(n){
+        ++count;
+        n=(n-1)&n;
     }
-return count;
+    return count;
 }
- int main(void)
+
+int main(void)
 {
-	int n,num;
-	printf("n");   
-    n=getchar();
-    num=func(n);
-    printf("the numbefr of one is %d\n",num);
-    //putchar(num);
+    char s;
+    int num=0;
+    while((s=getchar())!='\n'){
+        num=num*10+s-'0';}
+printf("%d\n",num1(num));
+return 0;
 }
