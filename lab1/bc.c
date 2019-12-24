@@ -11,5 +11,5 @@ int main()
     }
     for(i=0,i=0;i<17;i++)
     if(c[i]==1)j++;
-    printf("%d",j);
+    printf("%d\n",j);
 }
