@@ -23,7 +23,7 @@ int main(void)
          w = w + s[n];
     }
 
-    printf("%f", w);
+    printf("%f\n", w);
     return 0;
 }
 
